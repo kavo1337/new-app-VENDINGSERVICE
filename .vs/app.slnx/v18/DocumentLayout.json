@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\services\\auth\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\services\\auth\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\services\\auth\\hasherpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\services\\auth\\hasherpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\services\\auth\\inmemorytokenstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\services\\auth\\inmemorytokenstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\app.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\app.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\contracts\\authcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\contracts\\authcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\contracts\\vendingmachinecontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\contracts\\vendingmachinecontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\contracts\\monitoringcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\contracts\\monitoringcontracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|c:\\users\\clost\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\c#\\new-app-vendingservice\\new-app-vendingservice\\app.api\\app.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9DA71A78-A28F-8F84-EF7E-17686113D26D}|app.API\\app.API.csproj|solutionrelative:app.api\\app.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MonitoringContracts.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Contracts\\MonitoringContracts.cs",
+              "RelativeDocumentMoniker": "app.API\\Contracts\\MonitoringContracts.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Contracts\\MonitoringContracts.cs",
+              "RelativeToolTip": "app.API\\Contracts\\MonitoringContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T16:07:10.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthContracts.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Contracts\\AuthContracts.cs",
+              "RelativeDocumentMoniker": "app.API\\Contracts\\AuthContracts.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Contracts\\AuthContracts.cs",
+              "RelativeToolTip": "app.API\\Contracts\\AuthContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T16:07:00.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Services\\Auth\\JwtService.cs",
+              "RelativeDocumentMoniker": "app.API\\Services\\Auth\\JwtService.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Services\\Auth\\JwtService.cs",
+              "RelativeToolTip": "app.API\\Services\\Auth\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T17:51:20.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InMemoryTokenStore.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Services\\Auth\\InMemoryTokenStore.cs",
+              "RelativeDocumentMoniker": "app.API\\Services\\Auth\\InMemoryTokenStore.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Services\\Auth\\InMemoryTokenStore.cs",
+              "RelativeToolTip": "app.API\\Services\\Auth\\InMemoryTokenStore.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T17:51:20.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Program.cs",
+              "RelativeDocumentMoniker": "app.API\\Program.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Program.cs",
+              "RelativeToolTip": "app.API\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:37:27.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HasherPassword.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Services\\Auth\\HasherPassword.cs",
+              "RelativeDocumentMoniker": "app.API\\Services\\Auth\\HasherPassword.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Services\\Auth\\HasherPassword.cs",
+              "RelativeToolTip": "app.API\\Services\\Auth\\HasherPassword.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T17:51:20.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.API.csproj",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\app.API.csproj",
+              "RelativeDocumentMoniker": "app.API\\app.API.csproj",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\app.API.csproj",
+              "RelativeToolTip": "app.API\\app.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-17T17:51:19.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "app.API\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "app.API\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAawGoBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:53:54.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\appsettings.json",
+              "RelativeDocumentMoniker": "app.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\appsettings.json",
+              "RelativeToolTip": "app.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-17T13:48:15.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.API.http",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\app.API.http",
+              "RelativeDocumentMoniker": "app.API\\app.API.http",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\app.API.http",
+              "RelativeToolTip": "app.API\\app.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-17T13:48:14.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VendingMachineContracts.cs",
+              "DocumentMoniker": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Contracts\\VendingMachineContracts.cs",
+              "RelativeDocumentMoniker": "app.API\\Contracts\\VendingMachineContracts.cs",
+              "ToolTip": "C:\\Users\\clost\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\C#\\new-app-VENDINGSERVICE\\new-app-VENDINGSERVICE\\app.API\\Contracts\\VendingMachineContracts.cs",
+              "RelativeToolTip": "app.API\\Contracts\\VendingMachineContracts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T16:07:18.596Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
