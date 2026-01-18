@@ -1,6 +1,7 @@
 using app.API.Contracts;
 using app.API.Data;
 using app.API.Data.Entity;
+using app.API.Services;
 using app.API.Services.Auth;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ builder.Services.AddDbContext<AppDBContext>(opt =>
 builder.Services.AddSingleton<JwtService>();
 builder.Services.AddSingleton<HasherPassword>();
 builder.Services.AddSingleton<InMemoryTokenStore>();
+builder.Services.AddSingleton<MonitoringStatusGenerator>();
 
 var jwtKey = builder.Configuration["Jwt:Key"] ?? "ab657a7a546ab5aarta565a7567aba12345678901234567890";
 var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? "app";
@@ -136,7 +138,91 @@ authGroup.MapPost("/logout", (LogoutRequest request, InMemoryTokenStore refreshT
     refreshTokenStore.Remove(request.RefreshToken);
     return Results.Ok();
 });
+var monitoringGroup = app.MapGroup("/api/monitoring").RequireAuthorization();
 
+monitoringGroup.MapGet("/machines", async (
+    AppDBContext db,
+    MonitoringStatusGenerator generator,
+    string? status,
+    string? connectionTypeId,
+    string? additionalStatus) =>
+{
+    int? parsedConnectionTypeId = null;
+    if (!string.IsNullOrWhiteSpace(connectionTypeId))
+    {
+        if (!int.TryParse(connectionTypeId, out var parsed))
+        {
+            return Results.BadRequest(new { message = "Некорректный тип подключения." });
+        }
+
+        parsedConnectionTypeId = parsed;
+    }
+
+    var machines = await db.VendingMachine
+        .AsNoTracking()
+        .Include(vm => vm.VendingMachineStatus)
+        .Include(vm => vm.Modem)
+            .ThenInclude(m => m!.Provider)
+        .Include(vm => vm.VendingMachineEvent)
+        .Include(vm => vm.VendingMachineEquipment)
+            .ThenInclude(e => e.EquipmentType)
+        .ToListAsync();
+
+    var incomeByMachine = await db.VendingMachineIncome
+        .AsNoTracking()
+        .ToDictionaryAsync(i => i.VendingMachineId, i => i.TotalIncome ?? 0m);
+
+    var result = new List<MonitoringMachineItem>();
+
+    foreach (var vm in machines)
+    {
+        if (!string.IsNullOrWhiteSpace(status) &&
+            !string.Equals(vm.VendingMachineStatus.Name, status, StringComparison.OrdinalIgnoreCase))
+        {
+            continue;
+        }
+
+        if (parsedConnectionTypeId.HasValue && vm.Modem?.ConnectionTypeId != parsedConnectionTypeId.Value)
+        {
+            continue;
+        }
+
+        var generated = generator.Generate(vm.VendingMachineId);
+
+        if (!string.IsNullOrWhiteSpace(additionalStatus) &&
+            !string.Equals(generated.Additional, additionalStatus, StringComparison.OrdinalIgnoreCase))
+        {
+            continue;
+        }
+
+        var events = vm.VendingMachineEvent
+            .OrderByDescending(e => e.OccurredAt)
+            .Select(e => e.Message)
+            .FirstOrDefault() ?? "-";
+
+        var equipment = vm.VendingMachineEquipment.Count == 0
+            ? "-"
+            : string.Join(", ", vm.VendingMachineEquipment.Select(e => e.EquipmentType.Name));
+
+        incomeByMachine.TryGetValue(vm.VendingMachineId, out var income);
+
+        result.Add(new MonitoringMachineItem(
+            vm.VendingMachineId,
+            vm.Name,
+            vm.Modem?.Provider?.Name ?? "-",
+            DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
+            income,
+            generated.ConnectionState,
+            generated.CashInMachine,
+            events,
+            equipment,
+            generated.InfoStatus,
+            generated.Additional,
+            generated.LoadItems));
+    }
+
+    return Results.Ok(result);
+});
 // Временный эндпоинт для генерации хеша и соли (удалите после использования)
 authGroup.MapGet("/generate-hash", (string password) =>
 {

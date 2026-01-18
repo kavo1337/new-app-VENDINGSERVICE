@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\clost\OneDrive\Документы\C#\new-app-VENDINGSERVICE\new-app-VENDINGSERVICE\app.CLIENT\App.xaml
-7-2113460372
+6-756687477
 
-14-2041534420
+132011625997
 206-796764840
-Views\Admin\AdminPage.xaml;Views\Admin\VendingMachineFormWindow.xaml;Views\Dashboard\DashboardPage.xaml;Views\Dashboard\DashboardWindow.xaml;Views\Login\LoginWindow.xaml;Views\Monitoring\MonitoringPage.xaml;Views\Shell\ShellWindow.xaml;
+Views\Admin\AdminPage.xaml;Views\Admin\VendingMachineFormWindow.xaml;Views\Dashboard\DashboardPage.xaml;Views\Login\LoginWindow.xaml;Views\Monitoring\MonitoringPage.xaml;Views\Shell\ShellWindow.xaml;
 
 False
 
